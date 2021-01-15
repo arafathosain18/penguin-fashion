@@ -1,0 +1,136 @@
+.navbar-brand {
+
+    margin-right: 30rem;}
+    
+
+img, svg {
+    vertical-align: middle;
+    width: 331px;}
+.clearfix{
+        margin-top: 10px;
+    }
+.container h1{
+    font-size: 113px;
+    font-weight: 200;
+    line-height: 97px;
+}
+.first-btn {
+    font-family: Bebas Neue;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 80px;
+    font-weight: 800;
+    
+    color: #363958;}
+    .card-img, .card-img-bottom, .card-img-top {
+        width: 80%;}
+.container p {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 26px;
+        text-align:center;}
+
+.section2{
+    background: #FFFFFF;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+    }
+#products h2{
+    margin-top: 70px;
+    margin-bottom: 28px;
+}
+.card-img{
+        width: 120px;
+    }
+
+.card-dt{
+    width: 120px;
+}
+.money{
+    color: #76C27E;
+}
+.card-title{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 35px;
+    line-height: 68px;
+    color: #363958;
+}
+
+.card{
+    background: #FFFFFF;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, .09);
+    border-radius: 30px;
+    border: none;
+}
+
+.new {
+    position: relative;
+    width: 704px;
+    height: 554px;
+    margin-top: 24px;
+    margin-left: -1px;
+    padding: 107px;
+    background-color: #fff;
+    border: 0px;
+    box-shadow: none;
+}
+.card-img{
+    border: none;
+}
+.card-title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 29px;
+    line-height: 68px;
+    color: #363958;
+    text-align: center;
+} 
+.first-card{
+    border:0;
+    background-color:white;
+}
+.card-footer:last-child {
+    
+    border:0;
+    background-color:white;
+} 
+.mt-5 {
+    margin-top: 1rem!important;  
+}
+ 
+.btn {
+    padding: 0.375rem 1.75rem;
+    background-color: #2A1E59;
+    color: #FFFFFF;
+}
+.card-body {
+    flex: 1 1 auto;
+    padding: 0rem 0rem;
+}
+
+.g-4, .gx-4 {
+    --bs-gutter-x: 2.5rem;
+}
+
+
+@media (min-width: 576px) {
+
+  }
+@media (min-width: 768px) {
+    navbar-brand {
+        margin-right: 0rem;
+    }
+ }
+@media (min-width: 992px) { 
+
+}
+@media (min-width: 1200px) {
+   
+    
+}
