@@ -43,14 +43,14 @@
             <div class="col-md-7">
               <h1 class="first-btn">BACKPACK <br> <span class="text-success">MOON</span></h1>
               <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-              <button class="btn btn-warning btn-lg p-3 w-25 rounded-pill mt-4">Buy Now</button>
+              <button class="btn btn-warning btn-lg p-3 w-25 rounded-pill mt-4 btn-h">Buy Now</button>
               
             </div>
             <div class="col-md-5">  <img src="green.png" class="d-block w-100" alt="..."></div>
             </div>
         </section>
 
-    <section id="about" class="container Cards mt-5 d-grid first-card">
+    <section id="about" class="container col-sm Cards mt-5 d-grid first-card">
     <div class="row">
     <div class="col-sm-6">
       <div class="card">
@@ -61,7 +61,7 @@
             <div class="card mb-3 p-4"style="max-width: 600px;">
             <div class="row">
             <div class="col-md-4">
-                <img  class="card-dt card-img mb-3" src="Logo, Icon/image 12.png" alt="...">
+                <img  class="card-dt  col-sm card-img mb-3" src="Logo, Icon/image 12.png" alt="...">
             </div>
             <div class="col-md-8">
             <div class="card-body">
@@ -165,7 +165,7 @@
       </div>
   </div>
   <!--2nd section-->
-  <section id="products"  class="container mt-5">
+  <section id="products"  class="container mt-5 card-columns">
     <h2>Travel backpack</h2>
 <div class="row row-cols-1 row-cols-md-3 g-4">
     <div class="col">
@@ -206,10 +206,30 @@
         <div class="card-footer  2nd-footer-card d-flex justify-content-between">
           <h5 class="money">$169 </h5>
             <button class="btn btn-warning">Buy Now</button>
+          </div>
         </div>
       </div>
     </div>
-</div>
+    <!--contact section-->
+    <section class="container contact-form ">
+      <h2>CONTACT US</h2>
+    <form>
+      <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+      </div>
+      <div class="mb-3">
+        <label for="exampleInputPassword1" class="form-label">Password</label>
+        <input type="password" class="form-control" id="exampleInputPassword1">
+      </div>
+      <div class="mb-3 form-check">
+        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+  </section>
     </main>
      
 

@@ -117,20 +117,62 @@ img, svg {
 .g-4, .gx-4 {
     --bs-gutter-x: 2.5rem;
 }
-
-
-@media (min-width: 576px) {
-
-  }
-@media (min-width: 768px) {
-    navbar-brand {
-        margin-right: 0rem;
-    }
- }
-@media (min-width: 992px) { 
-
+.contact-form{
+    background-color:#fff;
 }
-@media (min-width: 1200px) {
+.contact-form h2{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 29px;
+    line-height: 68px;
+    color: #363958;
+    background-color:#0dcaf0;;
+}
+}
+
+
+@media (max-width: 576px) {
+        .btn-h{
+            font-size: 13px;
+            font-weight: 800;
+        }
+  }
+@media (max-width: 768px) {
+    navbar-brand {
+        margin-right: 0rem;}
    
-    
+ }
+@media (max-width: 992px) { 
+    .btn{
+        font-size: 13px;
+        font-weight: 800;
+    }
+}
+@media (max-width: 1200px) {
+    .btn{
+        font-size: 13px;
+        font-weight: 800;
+    }
+    .card-title {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bolder;
+        font-size: 21px;
+        line-height: 29px;
+        color: #363958;
+        text-align: center;
+   }
+   
+}
+@media (max-width:1399px){
+    .card-title {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bolder;
+        font-size: 21px;
+        line-height: 29px;
+        color: #363958;
+        text-align: center;
 }
